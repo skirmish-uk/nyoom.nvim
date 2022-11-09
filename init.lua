@@ -9,6 +9,3 @@ if pcall(require, "hotpot") then
 else
     print("Unable to require hotpot")
 end
-
-vim.wo.number = true
-vim.opt[guicursor] = "" 
